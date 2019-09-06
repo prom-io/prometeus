@@ -1,0 +1,48 @@
+version: "3"
+
+services:
+  namenode:
+    image: bde2020/hadoop-namenode:2.0.0-hadoop3.1.1-java8
+    container_name: namenode
+    ports:
+      - 9870:9870
+    volumes:
+      - hadoop_namenode:/hadoop/dfs/name
+    environment:
+      - CLUSTER_NAME=test
+    env_file:
+      - ./hadoop.env
+
+  datanode:
+    image: bde2020/hadoop-datanode:2.0.0-hadoop3.1.1-java8
+    #container_name: datanode
+    #volumes:
+    #  - hadoop_datanode:/hadoop/dfs/data
+    environment:
+      SERVICE_PRECONDITION: "namenode:9870"
+    env_file:
+      - ./hadoop.env
+
+  journal:
+    image: bde2020/hadoop-datanode:2.0.0-hadoop3.1.1-java8
+    #container_name: journal
+    #volumes:
+    #  - hadoop_datanode:/hadoop/dfs/data
+    environment:
+      SERVICE_PRECONDITION: "namenode:9870"
+    env_file:
+      - ./hadoop.env
+
+    zookeeper:
+      image: zookeeper:3.5
+      restart: always
+      hostname: zoo2
+      ports:
+        - 2182:2181
+      environment:
+        ZOO_MY_ID: 2
+        ZOO_SERVERS: server.1=zoo1:2888:3888;2181 server.2=0.0.0.0:2888:3888;2181 server.3=zoo3:2888:3888;2181
+
+
+volumes:
+
