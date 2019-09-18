@@ -7,11 +7,9 @@ import java.util.Map;
 
 @Getter
 @Setter
-public class FileUploadAttributes implements FileAttributes {
+public class FileExtendAttributes implements FileAttributes {
     private static final int MONTH_30_DAYS = 60 * 60 * 24 * 30;
 
-    private String name;
-    private String data;
     private int duration = MONTH_30_DAYS;
     private Map<String, String> additional;
 }

@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class FileUploadRequest {
+public class PaymentRequest {
     private RequestType type;
-    private FileUploadAttributes attributes;
+    private PaymentAttributes attributes;
 }

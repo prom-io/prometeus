@@ -1,5 +1,6 @@
 package io.realm9.prometheus.dds.services;
 
+/*
 import com.github.dockerjava.api.DockerClient;
 import com.github.dockerjava.api.command.CreateContainerCmd;
 import com.github.dockerjava.api.command.CreateContainerResponse;
@@ -7,6 +8,7 @@ import com.github.dockerjava.api.model.BuildResponseItem;
 import com.github.dockerjava.api.model.ExposedPort;
 import com.github.dockerjava.api.model.SearchItem;
 import com.github.dockerjava.core.command.BuildImageResultCallback;
+*/
 
 import java.io.File;
 import java.io.IOException;
@@ -20,6 +22,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public abstract class ContainersFactory {
+/*
     public static final String HADOOP_IMAGE = "prometheus/hadoop";
     public static final String ZOOKEEPER_IMAGE = "zookeeper";
 
@@ -109,4 +112,5 @@ public abstract class ContainersFactory {
 
         return docker.createContainerCmd(image);
     }
+*/
 }
