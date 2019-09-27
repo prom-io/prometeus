@@ -9,9 +9,6 @@
     - [Build and run process](#build-and-run-process)
         - [Running inside Docker](#running-inside-docker)
         - [Running outside Docker](#running-outside-docker)
-- [Stages of project](#stages-of-project)
-    - [What DDS can do now](#what-dds-can-do-now)
-    - [What DDS will do in the future](#what-dds-will-do-in-the-future)
 
 ## Description
 
