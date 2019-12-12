@@ -8,13 +8,12 @@ Decentralised marketplace for trustless data exchange
 - [How it works](#how-it-works)
 - [Tech stack](#tech-stack)
 - [Prometeus nodes](#prometeus-nodes)
-    - [Data Validator node](#data-validator-node)
     - [Data Mart node](#data-mart-node)
     - [Service node](#service-node)
+    - [Data Validator node](#data-validator-node)
 - [Stages of project](#stages-of-project)
     - [What Prometeus Network can do now](#what-prometeus-network-can-do-now)
     - [What Prometeus Network will do in the future](#what-prometeus-network-will-do-in-the-future)
-
 
 ## Description
 Prometeus Network is a secure and decentralized protocol that allows fully trustless and anonymous data exchange through the use of PROM token. Thus one can say that PROM is like BitCoin for data. This opens a new set of opportunities in the data exchange as well as enriching the transactional side of public blockchain application. 
@@ -39,7 +38,47 @@ As such this codebase should be treated as experimental and does not contain all
 
 ## How it works
 
+brief desc
+
 ## Tech stack
+
+- Ethereum fork
+- Plasma
+- Filecoin
 
 ## Prometeus nodes
 
+Prometeus Network conists of three types of the nodes:
+- Data Validator, which ...
+- Data Mart, which ...
+- Service Node, which ...
+
+### Data Validator node 
+
+Data Validator node is an application which is responsible for aggregation and validation of the data from the Data Owners and provide it to Prometeus ecosystem. It provides RESTful API  and user interface for uploading data. The Node uploads data of Data Owners to the Prometeus network using API of Service Node so that it can become available for purchase to Data marts. The payment for the storage of that data is charged at the moment of upload via the smart contract. Besides that, Data Validator Node makes initial encryption of uploaded data using the Data Owner's public key.
+
+Here is a [Data Validator repo](https://github.com/Prometeus-Network/data-validator-node) with more detailed information abouth this Node.
+
+### Data Mart node 
+
+Data Mart node is an application which is used for purchasing data and proceeding it to the buyer (end user: some brand or agency outside the System). It allows to browse metadata (via special UI) and purchase any Data Owners’ data within the System using API of Service Node. Besides that, Data Validator Node makes final decryption of the data.
+
+Here is a [Data Mart repo](https://github.com/Prometeus-Network/data-mart-node) with more detailed information abouth this Node.
+
+### Service node 
+
+Service Node is a distributed application which acts as an intermediate layer between all the Roles within the System. Service Node uses based on private Ethereum network + Ethereum Plasma under the hood: due to the requirement of providing large volumes of information to the clients the quickest way possible. Service Node arranges the storage of encrypted data in a distributed data storage, and metadata in Ethereum blockchain. Upon data uploading Data Validator commits payment which is distributed among Service Nodes via smart contract. Upon data purchasing Data Mart (see below) commits payment which is distributed among Data Validators and Data Owners via smart contract. Part of each purchase payment is kept by Service Node as a commissionary fee.
+
+Here is a [Service node repo](https://github.com/Prometeus-Network/service-node_net) with more detailed information abouth this Node.
+
+## Stages of project
+
+### What Prometeus Network can do now
+
+On the current stage of development System has got the following:
+...
+
+### What Prometeus Network will do in the future
+
+During next stages of development, the following functionality will be added to the System:
+...
