@@ -5,7 +5,8 @@
   <img src="https://github.com/Prometeus-Network/prometeus/blob/master/docs/diagrams/prom_logo.png" alt="Prometeus" width="160">
 </h1>
 
-<h4 align="center"> Decentralised marketplace for trustless data exchange</h4>
+<h3 align="center"> Decentralised marketplace for trustless data exchange</h3>
+
 
 Prometeus Network is a secure and decentralized protocol that allows fully trustless and anonymous data exchange through the use of PROM token. Thus one can say that PROM is like BitCoin for data. This opens a new set of opportunities in the data exchange as well as enriching the transactional side of public blockchain application. 
 
