@@ -1,5 +1,11 @@
 # Prometeus Network
-Decentralised marketplace for trustless data exchange
+
+<h1 align="center">
+  <br>
+  <img src="https://github.com/Prometeus-Network/prometeus/blob/master/docs/diagrams/prom_logo.png" alt="Prometeus" width="160">
+</h1>
+
+<h4 align="center"> Decentralised marketplace for trustless data exchange</h4>
 
 ## Table of contents
 
