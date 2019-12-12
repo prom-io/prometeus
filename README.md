@@ -7,7 +7,9 @@
   <br>
 </h1>
 
-<h3 align="center"> Decentralised marketplace for trustless data exchange  <br> </h3>
+<h3 align="center"> Decentralised marketplace for trustless data exchange </h3>
+ <br> 
+ <br> 
 
 Prometeus Network is a secure and decentralized protocol that allows fully trustless and anonymous data exchange through the use of PROM token. Thus one can say that PROM is like BitCoin for data. This opens a new set of opportunities in the data exchange as well as enriching the transactional side of public blockchain application. 
 
@@ -56,7 +58,14 @@ brief desc 2
 
 <img src="https://github.com/Prometeus-Network/prometeus/blob/master/docs/diagrams/Prometeus_scheme_2.png" alt="Prometeus scheme 2">
 
-brief desc 3
+1. Data Owners share their Valuable Data with Data Validator.
+2. Data Validator checks up their data and validate them. Data Validator encrypts the data and upload it to the Data Broker (integral part of Service Node). Service Node stores the data in the Distributed Data Storage. Now the Valuable Data is ready for further purchase.
+3. With the passage of time, some end users explored the data and found it interesting. So, they decided to purchase it via Data Mart
+4. Data Mart started the purchase process: she wants to buy the Valuable Data for PROM tokens via Service Node.
+5. Smart contract distributes PROM tokens among parties to a transaction. 
+6. Data Owners are now rewarded for their Valuable Data. 
+7. Data Validator already approved the transaction (decryption key granted) so the Service Node will take care about purchased data: retrieve them from Distributed Data Storageand pass them to the Data Mart.
+8. Data Mart uses the decryption key and passed the decrypted Valuable Data to the end users.
 
 ## Tech stack
 
