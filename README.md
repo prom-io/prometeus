@@ -7,22 +7,6 @@
 
 <h4 align="center"> Decentralised marketplace for trustless data exchange</h4>
 
-## Table of contents
-
-- [Description](#description)
-- [Features](#features)
-- [License](#license)
-- [How it works](#how-it-works)
-- [Tech stack](#tech-stack)
-- [Prometeus nodes](#prometeus-nodes)
-    - [Data Mart node](#data-mart-node)
-    - [Service node](#service-node)
-    - [Data Validator node](#data-validator-node)
-- [Stages of project](#stages-of-project)
-    - [What Prometeus Network can do now](#what-prometeus-network-can-do-now)
-    - [What Prometeus Network will do in the future](#what-prometeus-network-will-do-in-the-future)
-
-## Description
 Prometeus Network is a secure and decentralized protocol that allows fully trustless and anonymous data exchange through the use of PROM token. Thus one can say that PROM is like BitCoin for data. This opens a new set of opportunities in the data exchange as well as enriching the transactional side of public blockchain application. 
 
 PROM data exchange protocol allows several use case application scenarios : 
@@ -36,6 +20,19 @@ Autonomous & Open data exchange controlled by users : Prometeus is open source p
 Private and censorship resistant - Prometeus protocol operated on a public blockchain and used decentralised storage and ensures selective disclosure of personal and transactional data by the user. 
 
 Quality assurance of data: although Prometeus can not do quality assurance directly, we have built in protocol a transparent and comprehensive rating system that allows new market participants to filter data providers. 
+
+## Table of contents
+
+- [License](#license)
+- [How it works](#how-it-works)
+- [Tech stack](#tech-stack)
+- [Prometeus nodes](#prometeus-nodes)
+    - [Data Mart node](#data-mart-node)
+    - [Service node](#service-node)
+    - [Data Validator node](#data-validator-node)
+- [Stages of project](#stages-of-project)
+    - [What Prometeus Network can do now](#what-prometeus-network-can-do-now)
+    - [What Prometeus Network will do in the future](#what-prometeus-network-will-do-in-the-future)
 
 ## License
 
