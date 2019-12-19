@@ -34,6 +34,7 @@ Quality assurance of data: although Prometeus can not do quality assurance direc
     - [Data Mart node](#data-mart-node)
     - [Service node](#service-node)
     - [Data Validator node](#data-validator-node)
+- [How to test](#how-to-test)
 - [Stages of project](#stages-of-project)
     - [What Prometeus Network can do now](#what-prometeus-network-can-do-now)
     - [What Prometeus Network will do in the future](#what-prometeus-network-will-do-in-the-future)
@@ -80,9 +81,9 @@ Ethereum Plasma: an off-chain solution that strives to significantly increase th
 ## Prometeus nodes
 
 Prometeus Network conists of three types of the nodes:
-- Data Validator, which ...
-- Data Mart, which ...
-- Service Node, which ...
+- Data Validator, which deals with Data Owners and uploads their valuable data to the System
+- Data Mart, which enables everybody to explore and buy the valuable data in the System
+- Service Node, running the communication service that implements a delivery guarantee: intermediate layer between Data Validators and Data marts.
 
 ### Data Validator node 
 
@@ -101,6 +102,16 @@ Here is a [Data Mart repo](https://github.com/Prometeus-Network/data-mart-node) 
 Service Node is a distributed application which acts as an intermediate layer between all the Roles within the System. Service Node uses based on private Ethereum network + Ethereum Plasma under the hood: due to the requirement of providing large volumes of information to the clients the quickest way possible. Service Node arranges the storage of encrypted data in a distributed data storage, and metadata in Ethereum blockchain. Upon data uploading Data Validator commits payment which is distributed among Service Nodes via smart contract. Upon data purchasing Data Mart (see below) commits payment which is distributed among Data Validators and Data Owners via smart contract. Part of each purchase payment is kept by Service Node as a commissionary fee.
 
 Here is a [Service node repo](https://github.com/Prometeus-Network/service-node_net) with more detailed information abouth this Node.
+
+## How to test
+
+For the testing purposes, you can deploy your instances of system nodes (see install instructions in the appropriate repos) or use the UI of our test nodes, which we implemented in advance for ease of testing and demonstration.
+
+Here is UI of [Data Validator Node](http://178.128.240.29/)
+
+Here is UI of [Data Mart Node](http://178.128.240.29/)
+
+Here is UI of [Prom Blockchain Explorer](http://178.62.211.224/) that allows to explore all the transactions in our tesnet.
 
 ## Stages of project
 
