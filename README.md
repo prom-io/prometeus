@@ -69,9 +69,13 @@ brief desc 2
 
 ## Tech stack
 
-- Ethereum fork
-- Plasma
-- Filecoin
+Fork of [Go implementation of the Ethereum protocol](https://github.com/ethereum/go-ethereum): decentralized platform that runs smart contracts, applications that run exactly as programmed without possibility of downtime, censorship, fraud or third party interference.
+
+Ethereum Plasma: an off-chain solution that strives to significantly increase the overall performance of the Ethereum network, by creating a tree-like structure of numerous smaller chains, which would be able to handle more transactions per second.
+
+[Filecoin](https://github.com/filecoin-project/lotus): a decentralized data storage network on top of InterPlanetary File System (IPFS). We use it as a base of our disrtibuted data storage modulem that allows us to store the Data owner's files in most secured and decentralized way.
+
+[Elasticsearch](https://github.com/elastic/elasticsearch): a search engine provides a distributed, multitenant-capable full-text search engine. We use it for caching metadata from the blockchain and that allows Data Mart users to explore the Data Owner's data fast and easy.
 
 ## Prometeus nodes
 
