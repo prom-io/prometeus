@@ -49,13 +49,13 @@ As such this codebase should be treated as experimental and does not contain all
 
 ## How it works
 
-brief desc 1
+Data Owners is the person or the company that have got some valuable data and Data Validator uploads the data to the System. Service Node is intermediate layer between all other actors into the System. If some brand or agency (Data Mart's client) would like to purchase some of that valuable data, they pay to the Data Mart for it. Data Mart purchases PROM tokens at the crypto exchange: that ensures PROM tokens liquidity and demand. When Service Node performs a data delivery, Data Validator grants that Data Owners will be rewarded for their data.
 
 <p align="center">
 <img src="https://github.com/Prometeus-Network/prometeus/blob/master/docs/diagrams/Prometeus_scheme_1.png" alt="Prometeus scheme 1">
 </p>
 
-brief desc 2
+The scheme below clearly shows the general procedure of the circulation of the data and PROM tokens within the System.
 
 <img src="https://github.com/Prometeus-Network/prometeus/blob/master/docs/diagrams/Prometeus_scheme_2.png" alt="Prometeus scheme 2">
 
@@ -109,7 +109,7 @@ For the testing purposes, you can deploy your instances of system nodes (see ins
 
 Here is UI of [Data Validator Node](http://178.128.240.29/) and testing [instructions](https://github.com/Prometeus-Network/data-validator-node/blob/master/test.md)
 
-Here is UI of [Data Mart Node](http://178.128.240.29/) and testing [instructions](https://github.com/Prometeus-Network/data-mart-node/blob/master/test.md)
+Here is UI of [Data Mart Node](http://178.62.207.53:3008/) and testing [instructions](https://github.com/Prometeus-Network/data-mart-node/blob/master/test.md)
 
 Here is UI of [Prom Blockchain Explorer](http://178.62.211.224/) that allows to explore all the transactions in our tesnet.
 
