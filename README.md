@@ -107,9 +107,9 @@ Here is a [Service node repo](https://github.com/Prometeus-Network/service-node_
 
 For the testing purposes, you can deploy your instances of system nodes (see install instructions in the appropriate repos) or use the UI of our test nodes, which we implemented in advance for ease of testing and demonstration.
 
-Here is UI of [Data Validator Node](http://178.128.240.29/)
+Here is UI of [Data Validator Node](http://178.128.240.29/) and testing [instructions](https://github.com/Prometeus-Network/data-validator-node/blob/master/test.md)
 
-Here is UI of [Data Mart Node](http://178.128.240.29/)
+Here is UI of [Data Mart Node](http://178.128.240.29/) and testing [instructions](https://github.com/Prometeus-Network/data-mart-node/blob/master/test.md)
 
 Here is UI of [Prom Blockchain Explorer](http://178.62.211.224/) that allows to explore all the transactions in our tesnet.
 
