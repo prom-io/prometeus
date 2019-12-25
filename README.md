@@ -18,15 +18,9 @@ PROM data exchange protocol allows several use case application scenarios :
 - Serve as a decentralised cross horizontal data exchange hub for big data( prospective markets are Health Care, Finance, Public, Research, Retail, Marketing);
 - Perform cross-industry data exchange: Prometeus can connect data providers from any industry to data consumers from any industry;
 
-## Features
-Autonomous & Open data exchange controlled by users : Prometeus is open source public blockchain protocol, anyone can take any role in the Prometeus Network, data providers and data consumers control the transactions in a real market form, setting price, privacy & security levels.
-
-Private and censorship resistant - Prometeus protocol operated on a public blockchain and used decentralised storage and ensures selective disclosure of personal and transactional data by the user. 
-
-Quality assurance of data: although Prometeus can not do quality assurance directly, we have built in protocol a transparent and comprehensive rating system that allows new market participants to filter data providers. 
-
 ## Table of contents
 
+- [Features](#license)
 - [License](#license)
 - [How it works](#how-it-works)
 - [Tech stack](#tech-stack)
@@ -38,6 +32,13 @@ Quality assurance of data: although Prometeus can not do quality assurance direc
 - [Stages of project](#stages-of-project)
     - [What Prometeus Network can do now](#what-prometeus-network-can-do-now)
     - [What Prometeus Network will do in the future](#what-prometeus-network-will-do-in-the-future)
+
+## Features
+Autonomous & Open data exchange controlled by users : Prometeus is open source public blockchain protocol, anyone can take any role in the Prometeus Network, data providers and data consumers control the transactions in a real market form, setting price, privacy & security levels.
+
+Private and censorship resistant - Prometeus protocol operated on a public blockchain and used decentralised storage and ensures selective disclosure of personal and transactional data by the user. 
+
+Quality assurance of data: although Prometeus can not do quality assurance directly, we have built in protocol a transparent and comprehensive rating system that allows new market participants to filter data providers. 
 
 ## License
 
