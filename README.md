@@ -21,7 +21,6 @@ PROM data exchange protocol allows several use case application scenarios :
 ## Table of contents
 
 - [Features](#license)
-- [License](#license)
 - [How it works](#how-it-works)
 - [How to test](#how-to-test)
 - [Tech stack](#tech-stack)
@@ -29,9 +28,7 @@ PROM data exchange protocol allows several use case application scenarios :
     - [Data Mart node](#data-mart-node)
     - [Service node](#service-node)
     - [Data Validator node](#data-validator-node)
-- [Stages of project](#stages-of-project)
-    - [What Prometeus Network can do now](#what-prometeus-network-can-do-now)
-    - [What Prometeus Network will do in the future](#what-prometeus-network-will-do-in-the-future)
+- [License](#license)
 
 ## Features
 Autonomous & Open data exchange controlled by users : Prometeus is open source public blockchain protocol, anyone can take any role in the Prometeus Network, data providers and data consumers control the transactions in a real market form, setting price, privacy & security levels.
@@ -39,14 +36,6 @@ Autonomous & Open data exchange controlled by users : Prometeus is open source p
 Private and censorship resistant - Prometeus protocol operated on a public blockchain and used decentralised storage and ensures selective disclosure of personal and transactional data by the user. 
 
 Quality assurance of data: although Prometeus can not do quality assurance directly, we have built in protocol a transparent and comprehensive rating system that allows new market participants to filter data providers. 
-
-## License
-
-Prometeus Network is licensed under the Apache software license (see LICENSE [file](https://github.com/Prometeus-Network/prometeus/blob/master/LICENSE)). Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either \express or implied.
-
-Prometeus Network makes no representation or guarantee that this software (including any third-party libraries) will perform as intended or will be free of errors, bugs or faulty code. The software may fail which could completely or partially limit functionality or compromise computer systems. If you use or implement it, you do so at your own risk. In no event will Prometeus Network be liable to any party for any damages whatsoever, even if it had been advised of the possibility of damage.
-
-As such this codebase should be treated as experimental and does not contain all currently developed features. Prometeus Network will be delivering regular updates.
 
 ## How it works
 
@@ -113,3 +102,11 @@ Here is a [Data Mart repo](https://github.com/Prometeus-Network/data-mart-node) 
 Service Node is a distributed application which acts as an intermediate layer between all the Roles within the System. Service Node uses based on private Ethereum network + Ethereum Plasma under the hood: due to the requirement of providing large volumes of information to the clients the quickest way possible. Service Node arranges the storage of encrypted data in a distributed data storage, and metadata in Ethereum blockchain. Upon data uploading Data Validator commits payment which is distributed among Service Nodes via smart contract. Upon data purchasing Data Mart (see below) commits payment which is distributed among Data Validators and Data Owners via smart contract. Part of each purchase payment is kept by Service Node as a commissionary fee.
 
 Here is a [Service node repo](https://github.com/Prometeus-Network/service-node_net) with more detailed information abouth this Node.
+
+## License
+
+Prometeus Network is licensed under the Apache software license (see LICENSE [file](https://github.com/Prometeus-Network/prometeus/blob/master/LICENSE)). Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either \express or implied.
+
+Prometeus Network makes no representation or guarantee that this software (including any third-party libraries) will perform as intended or will be free of errors, bugs or faulty code. The software may fail which could completely or partially limit functionality or compromise computer systems. If you use or implement it, you do so at your own risk. In no event will Prometeus Network be liable to any party for any damages whatsoever, even if it had been advised of the possibility of damage.
+
+As such this codebase should be treated as experimental and does not contain all currently developed features. Prometeus Network will be delivering regular updates.
