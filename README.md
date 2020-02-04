@@ -23,12 +23,12 @@ PROM data exchange protocol allows several use case application scenarios :
 - [Features](#license)
 - [License](#license)
 - [How it works](#how-it-works)
+- [How to test](#how-to-test)
 - [Tech stack](#tech-stack)
 - [Prometeus nodes](#prometeus-nodes)
     - [Data Mart node](#data-mart-node)
     - [Service node](#service-node)
     - [Data Validator node](#data-validator-node)
-- [How to test](#how-to-test)
 - [Stages of project](#stages-of-project)
     - [What Prometeus Network can do now](#what-prometeus-network-can-do-now)
     - [What Prometeus Network will do in the future](#what-prometeus-network-will-do-in-the-future)
@@ -69,6 +69,16 @@ The scheme below clearly shows the general procedure of the circulation of the d
 7. Data Validator already approved the transaction (decryption key granted) so the Service Node will take care about purchased data: retrieve them from Distributed Data Storageand pass them to the Data Mart.
 8. Data Mart uses the decryption key and passed the decrypted Valuable Data to the end users.
 
+## How to test
+
+For the testing purposes, you can deploy your instances of system nodes (see install instructions in the appropriate repos) or use the UI of our test nodes, which we implemented in advance for ease of testing and demonstration.
+
+Here is UI of [Data Validator Node](http://178.128.240.29/) and testing [instructions](https://github.com/Prometeus-Network/data-validator-node/blob/master/test.md)
+
+Here is UI of [Data Mart Node](http://178.62.207.53:3008/) and testing [instructions](https://github.com/Prometeus-Network/data-mart-node/blob/master/test.md)
+
+Here is UI of [Prom Blockchain Explorer](http://178.62.211.224/) that allows to explore all the transactions in our tesnet.
+
 ## Tech stack
 
 Fork of [Go implementation of the Ethereum protocol](https://github.com/ethereum/go-ethereum): decentralized platform that runs smart contracts, applications that run exactly as programmed without possibility of downtime, censorship, fraud or third party interference.
@@ -103,25 +113,3 @@ Here is a [Data Mart repo](https://github.com/Prometeus-Network/data-mart-node) 
 Service Node is a distributed application which acts as an intermediate layer between all the Roles within the System. Service Node uses based on private Ethereum network + Ethereum Plasma under the hood: due to the requirement of providing large volumes of information to the clients the quickest way possible. Service Node arranges the storage of encrypted data in a distributed data storage, and metadata in Ethereum blockchain. Upon data uploading Data Validator commits payment which is distributed among Service Nodes via smart contract. Upon data purchasing Data Mart (see below) commits payment which is distributed among Data Validators and Data Owners via smart contract. Part of each purchase payment is kept by Service Node as a commissionary fee.
 
 Here is a [Service node repo](https://github.com/Prometeus-Network/service-node_net) with more detailed information abouth this Node.
-
-## How to test
-
-For the testing purposes, you can deploy your instances of system nodes (see install instructions in the appropriate repos) or use the UI of our test nodes, which we implemented in advance for ease of testing and demonstration.
-
-Here is UI of [Data Validator Node](http://178.128.240.29/) and testing [instructions](https://github.com/Prometeus-Network/data-validator-node/blob/master/test.md)
-
-Here is UI of [Data Mart Node](http://178.62.207.53:3008/) and testing [instructions](https://github.com/Prometeus-Network/data-mart-node/blob/master/test.md)
-
-Here is UI of [Prom Blockchain Explorer](http://178.62.211.224/) that allows to explore all the transactions in our tesnet.
-
-## Stages of project
-
-### What Prometeus Network can do now
-
-On the current stage of development System has got the following:
-...
-
-### What Prometeus Network will do in the future
-
-During next stages of development, the following functionality will be added to the System:
-...
