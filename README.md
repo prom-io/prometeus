@@ -81,6 +81,7 @@ Ethereum Plasma: an off-chain solution that strives to significantly increase th
 ## Prometeus nodes
 
 Prometeus Network conists of three types of the nodes:
+
 - Data Validator, which deals with Data Owners and uploads their valuable data to the System
 - Data Mart, which enables everybody to explore and buy the valuable data in the System
 - Service Node, running the communication service that implements a delivery guarantee: intermediate layer between Data Validators and Data marts.
