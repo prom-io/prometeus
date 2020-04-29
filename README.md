@@ -22,7 +22,6 @@ PROM data exchange protocol allows several use case application scenarios :
 
 - [Features](#license)
 - [How it works](#how-it-works)
-- [How to test](#how-to-test)
 - [Tech stack](#tech-stack)
 - [Prometeus nodes](#prometeus-nodes)
     - [Data Mart node](#data-mart-node)
@@ -57,16 +56,6 @@ The scheme below clearly shows the general procedure of the circulation of the d
 6. Data Owners are now rewarded for their Valuable Data. 
 7. Data Validator already approved the transaction (decryption key granted) so the Service Node will take care about purchased data: retrieve them from Distributed Data Storageand pass them to the Data Mart.
 8. Data Mart uses the decryption key and passed the decrypted Valuable Data to the end users.
-
-## How to test
-
-For the testing purposes, you can deploy your instances of system nodes (see install instructions in the appropriate repos) or use the UI of our test nodes, which we implemented in advance for ease of testing and demonstration.
-
-Here is UI of [Data Validator Node](http://178.128.240.29/) and testing [instructions](https://github.com/Prometeus-Network/data-validator-node/blob/master/test.md)
-
-Here is UI of [Data Mart Node](http://178.62.207.53:3008/) and testing [instructions](https://github.com/Prometeus-Network/data-mart-node/blob/master/test.md)
-
-Here is UI of [Prom Blockchain Explorer](http://178.62.211.224/) that allows to explore all the transactions in our tesnet.
 
 ## Tech stack
 
