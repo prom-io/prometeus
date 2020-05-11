@@ -29,7 +29,6 @@ Our mission is to create a free flow of information online. It is a way to commu
 
 ## Table of contents
 
-- [License](#license)
 - [Our Principles](#our-principles)
 - [Tech stack](#tech-stack)
 - [Ignite nodes](#ignite-nodes)
@@ -38,13 +37,6 @@ Our mission is to create a free flow of information online. It is a way to commu
     - [Service node](#service-node)
     - [Data Validator node](#data-validator-node)
 - [License](#license)
-
-## Features
-Autonomous & Open data exchange controlled by users : Prometeus is open source public blockchain protocol, anyone can take any role in the Prometeus Network, data providers and data consumers control the transactions in a real market form, setting price, privacy & security levels.
-
-Private and censorship resistant - Prometeus protocol operated on a public blockchain and used decentralised storage and ensures selective disclosure of personal and transactional data by the user. 
-
-Quality assurance of data: although Prometeus can not do quality assurance directly, we have built in protocol a transparent and comprehensive rating system that allows new market participants to filter data providers. 
 
 ## Our Principles
 
