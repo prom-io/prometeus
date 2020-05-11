@@ -7,16 +7,23 @@
   <br>
 </h1>
 
-<h3 align="center"> Decentralised marketplace for trustless data exchange </h3>
+<h3 align="center"> Decentralized social network and data marketplace</h3>
  <br> 
- <br> 
+ <br>
 
 Prometeus Network is a secure and decentralized protocol that allows fully trustless and anonymous data exchange through the use of PROM token. Thus one can say that PROM is like BitCoin for data. This opens a new set of opportunities in the data exchange as well as enriching the transactional side of public blockchain application. 
 
-PROM data exchange protocol allows several use case application scenarios : 
-- Exchange any type of data in trustless and private manner( documents, pictures, videos, etc.);
-- Serve as a decentralised cross horizontal data exchange hub for big data( prospective markets are Health Care, Finance, Public, Research, Retail, Marketing);
-- Perform cross-industry data exchange: Prometeus can connect data providers from any industry to data consumers from any industry;
+sssss
+
+<h3 align="center"> Stoa: Decentralized Data Exchange Platform</h3>
+<br> 
+
+Stoa is a distributed platform that allows users to buy and sell any data in a secure and decentralized way. The whole process is anonymous and does not require any KYC. You need just start a node to become a buyer or seller within the System. Any user can exchange any type of data (documents, pictures, videos, etc). Data Exchange serves as a decentralized cross horizontal hub for big data (Health Care, Finance, Public, Research, Retail, Marketing) and connects data providers from any industry to the data consumers.
+
+<h3 align="center"> Ignite: Decentralized Microblogging Service</h3>
+<br> 
+
+Ignite is a decentralized social network, which allows everyone to share her/his mind freely via texts and media files. All the posts are distributed through Ethereum blockchain and stored immutable in distributed Data Storage. This storage is able to store necessary data and media for a period of 10-100 years. It is based on Bit Torrent File System, so Ignite could not be blocked by any form of barrier or firewall.
 
 ## Table of contents
 
