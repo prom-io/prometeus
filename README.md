@@ -75,7 +75,7 @@ Ethereum Plasma: an off-chain solution that strives to significantly increase th
 
 ## Ignite nodes
 
-Ignite conists of the set of homogeneous independent Nodes. Here are the repos, which contain more detailed information about Ignite Node:
+Ignite conists of the set of homogeneous independent Nodes. Here are the repos, which contain more detailed information about Ignite Nodes:
 
 - [Ignite front-end repo](https://github.com/Prometeus-Network/ignite-front-end)
 - [Ignite back-end repo](https://github.com/Prometeus-Network/ignite-back-end)
