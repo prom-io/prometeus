@@ -13,7 +13,7 @@
 
 Prometeus Network is a secure and decentralized protocol that allows fully trustless and anonymous data exchange through the use of PROM token. Thus one can say that PROM is like BitCoin for data. This opens a new set of opportunities in the data exchange as well as enriching the transactional side of public blockchain application. 
 
-sssss
+We have been developing two products: Stoa, Decentralized Data Exchange Platform, which allows to buy and sell any file worldwide without limitations and Ignite, Decentralized Microblogging Service, which allows to communicate globally without any form of censorship.
 
 <h3 align="center"> Stoa: Decentralized Data Exchange Platform</h3>
 <br> 
@@ -25,12 +25,14 @@ Stoa is a distributed platform that allows users to buy and sell any data in a s
 
 Ignite is a decentralized social network, which allows everyone to share her/his mind freely via texts and media files. All the posts are distributed through Ethereum blockchain and stored immutable in distributed Data Storage. This storage is able to store necessary data and media for a period of 10-100 years. It is based on Bit Torrent File System, so Ignite could not be blocked by any form of barrier or firewall.
 
+Our mission is to create a free flow of information online. It is a way to communicate globally that supports individual liberty of everyone without any form of censorship. Due to its decentralized nature Ignite will not be governed by anyone and cannot be controlled by authorities.
+
 ## Table of contents
 
-- [Features](#license)
-- [How it works](#how-it-works)
+- [License](#license)
+- [Our Principles](#our-principles)
 - [Tech stack](#tech-stack)
-- [Prometeus nodes](#prometeus-nodes)
+- [Stoa nodes](#stoa-nodes)
     - [Data Mart node](#data-mart-node)
     - [Service node](#service-node)
     - [Data Validator node](#data-validator-node)
@@ -43,7 +45,11 @@ Private and censorship resistant - Prometeus protocol operated on a public block
 
 Quality assurance of data: although Prometeus can not do quality assurance directly, we have built in protocol a transparent and comprehensive rating system that allows new market participants to filter data providers. 
 
-## How it works
+## Our Principles
+
+Ignite is a decentralized social network, consists of multiple independent and equitable nodes, which communicate via the blockchain. Our mission is to create a free flow of information online. It is a way to communicate globally that supports individual liberty of everyone without any form of censorship. Due to its decentralized nature Ignite will not be governed by anyone and cannot be controlled by authorities.
+
+Stoa is a decentralized File Exchange platform. Much of the trust in Stoa comes from the fact that it requires no trust at all. System itself cannot access the data due to encryption protocols. All transactions are fully transparent and governed by logic defined in the smart contract. Stoa is fully open-source and decentralized. Anyone has access to the entire source code at any time and verify exactly how it works. Thus one can say that PROM is like Bitcoin for data.
 
 Data Owners is the person or the company that have got some valuable data and Data Validator uploads the data to the System. Service Node is intermediate layer between all other actors into the System. If some brand or agency (Data Mart's client) would like to purchase some of that valuable data, they pay to the Data Mart for it. Data Mart purchases PROM tokens at the crypto exchange: that ensures PROM tokens liquidity and demand. When Service Node performs a data delivery, Data Validator grants that Data Owners will be rewarded for their data.
 
@@ -70,7 +76,7 @@ Fork of [Go implementation of the Ethereum protocol](https://github.com/ethereum
 
 Ethereum Plasma: an off-chain solution that strives to significantly increase the overall performance of the Ethereum network, by creating a tree-like structure of numerous smaller chains, which would be able to handle more transactions per second.
 
-[Filecoin](https://github.com/filecoin-project/lotus): a decentralized data storage network on top of InterPlanetary File System (IPFS). We use it as a base of our disrtibuted data storage modulem that allows us to store the Data owner's files in most secured and decentralized way.
+[Soter](https://gitlab.com/btfs_ignite): a distributed storage solution based on BitTorrent File System ([BTFS](https://www.bittorrent.com/ru/token/bittorrent-file-system/)). We use it as a base of our disrtibuted data storage module that allows us to store the data in most secured and decentralized way.
 
 [Elasticsearch](https://github.com/elastic/elasticsearch): a search engine provides a distributed, multitenant-capable full-text search engine. We use it for caching metadata from the blockchain and that allows Data Mart users to explore the Data Owner's data fast and easy.
 
