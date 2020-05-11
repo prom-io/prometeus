@@ -32,6 +32,7 @@ Our mission is to create a free flow of information online. It is a way to commu
 - [License](#license)
 - [Our Principles](#our-principles)
 - [Tech stack](#tech-stack)
+- [Ignite nodes](#ignite-nodes)
 - [Stoa nodes](#stoa-nodes)
     - [Data Mart node](#data-mart-node)
     - [Service node](#service-node)
@@ -80,9 +81,17 @@ Ethereum Plasma: an off-chain solution that strives to significantly increase th
 
 [Elasticsearch](https://github.com/elastic/elasticsearch): a search engine provides a distributed, multitenant-capable full-text search engine. We use it for caching metadata from the blockchain and that allows Data Mart users to explore the Data Owner's data fast and easy.
 
-## Prometeus nodes
+## Ignite nodes
 
-Prometeus Network conists of three types of the nodes:
+Ignite conists of the set of homogeneous independent Nodes. Here are the repos, which contain more detailed information about Ignite Node:
+
+- [Ignite front-end repo](https://github.com/Prometeus-Network/ignite-front-end)
+- [Ignite back-end repo](https://github.com/Prometeus-Network/ignite-back-end)
+- [Ignite blockchain repo](https://github.com/Prometeus-Network/ignite-blockchain)
+
+## Stoa nodes
+
+Stoa conists of three types of the nodes:
 
 - Data Validator, which deals with Data Owners and uploads their valuable data to the System
 - Data Mart, which enables everybody to explore and buy the valuable data in the System
