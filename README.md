@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <img src="https://github.com/Prometeus-Network/prometeus/blob/master/docs/diagrams/prom_logo.png" alt="Prometeus" width="160">
+  <img src="https://github.com/Prometeus-Network/prometeus/blob/master/docs/Prometeus%20logo.png" alt="Prometeus" width="160">
   <br>
   Prometeus Network
   <br>
