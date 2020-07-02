@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-<h3 align="center"> Decentralized social network and data marketplace</h3>
+<h3 align="center"> Decentralized social network and data exchange platform</h3>
  <br> 
  <br>
 
